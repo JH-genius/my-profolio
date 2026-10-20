@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="My personal portfolio, skills and projects.">
+
+  <title>Personal Portfolio Resume Website | Home</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <a class="skip-link" href="#main">
+    Skip to main content
+  </a>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-row">
+      <a class="brand" href="index.html">
+        Personal Portfolio Resume Website
+      </a>
+
+      <nav id="navigation"
+           class="nav-links"
+           aria-label="Main navigation">
+
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="skill.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeButton"
+                type="button"
+                aria-pressed="false">
+          Dark mode
+        </button>
+
+        <button id="menuButton"
+                type="button"
+                aria-controls="navigation"
+                aria-expanded="false">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Home -->
+    <section id="home" class="hero container">
+      <div>
+        <span class="eyebrow">STUDENT PORTFOLIO</span>
+
+        <h1>Hello, I'm<br>JH</h1>
+
+        <p class="muted">
+          I am a computing student who enjoys learning how
+          technology solves everyday problems. This portfolio
+          shares my skills, coursework and learning journey.
+        </p>
+      </div>
+    </section>
+
+    <!-- About remains on the home page -->
+    <section id="about" class="container">
+      <h2>About Me</h2>
+
+      <div class="card">
+        <p>
+          I study at Universiti Malaysia Sarawak, in the
+          Faculty of Computer Science and Information Technology.
+        </p>
+
+        <p>
+          My interests include web development, database design
+          and user interface design. I want to improve my
+          technical skills by building useful projects and
+          learning from feedback.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <button id="topButton" type="button" hidden>
+    Back to top ↑
+  </button>
+
+
+
+  <footer>
+    © Personal Portfolio Resume Website · Built with HTML, CSS and JavaScript
+  </footer>
+
+</body>
+</html>
